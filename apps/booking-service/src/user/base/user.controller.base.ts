@@ -391,6 +391,7 @@ export class UserControllerBase {
       ...query,
       select: {
         accessToken: true,
+        description: true,
         expiresAt: true,
         id: true,
         idToken: true,

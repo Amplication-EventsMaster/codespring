@@ -5,6 +5,7 @@ import { UserWhereUniqueInput } from "../user/UserWhereUniqueInput";
 
 export type AccountWhereInput = {
   accessToken?: StringNullableFilter;
+  description?: StringNullableFilter;
   expiresAt?: IntNullableFilter;
   id?: StringFilter;
   idToken?: StringNullableFilter;

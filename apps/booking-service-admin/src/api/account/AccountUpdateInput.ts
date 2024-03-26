@@ -2,6 +2,7 @@ import { UserWhereUniqueInput } from "../user/UserWhereUniqueInput";
 
 export type AccountUpdateInput = {
   accessToken?: string | null;
+  description?: string | null;
   expiresAt?: number | null;
   idToken?: string | null;
   provider?: string;
