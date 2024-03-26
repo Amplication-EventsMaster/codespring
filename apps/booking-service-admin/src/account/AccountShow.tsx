@@ -13,6 +13,7 @@ export const AccountShow = (props: ShowProps): React.ReactElement => {
     <Show {...props}>
       <SimpleShowLayout>
         <TextField label="Access Token" source="accessToken" />
+        <TextField label="description" source="description" />
         <TextField label="Expires At" source="expiresAt" />
         <TextField label="ID" source="id" />
         <TextField label="Id Token" source="idToken" />
